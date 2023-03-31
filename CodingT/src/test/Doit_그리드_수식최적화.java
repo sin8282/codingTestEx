@@ -15,8 +15,9 @@ import java.util.StringTokenizer;
 /* 그리드 알고리즘 : 최고의 값을 선별할 수 있는 알고리즘 찾는값의 최선이 아닌 최고 값을 배출하므로 문제에서 오류가 생길 수 있다.
  * 때문에 문제에 ai은 ai-1의 배수 요런말이 있을때만 사용해서 풀이가 가능하다.
 이건왜 그리드 문제인지 모르겠네..
+https://www.acmicpc.net/problem/1541
 */
-public class Test20 {
+public class Doit_그리드_수식최적화 {
 
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);

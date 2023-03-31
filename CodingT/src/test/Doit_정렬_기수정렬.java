@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
  * 10의자리수까지 다했으면 정렬이 끝나거라 판단하고, 그 배열이 곧 정리된 배열  19 35 54
 https://velog.io/@justifinition/Algorithm-%EA%B8%B0%EC%88%98-%EC%A0%95%EB%A0%ACRadix-Sort
 */
-public class Test15 {
+public class Doit_정렬_기수정렬 {
 	
 	public static Queue<Integer>[] q = new LinkedList[10];
 	

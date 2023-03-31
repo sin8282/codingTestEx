@@ -12,10 +12,12 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /* 버블정렬
- 	일반적으로 우리가 알고있는 for i(){for j} for문에 for 문이 들어가는 형식 존나 기초
+ 	일반적으로 우리가 알고있는 for i(){for j} for문에 for 문이 들어가는 형식 존나 기초 
  	보통 범위가 작은 것들을 코딩할때 쓴다 . 시간복잡도가 n제곱이므로 존나 오래걸리니 범위가 작은 계산에 유용하다.
+ 	그냥 이거 생각못하면 개발자 접으면 됨.
+ 	https://www.acmicpc.net/problem/2750
 */
-public class Test10 {
+public class Doit_정렬_버블정렬 {
 	
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);

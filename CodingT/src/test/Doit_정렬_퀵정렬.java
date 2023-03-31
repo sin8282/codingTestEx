@@ -12,10 +12,11 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /* 퀵정렬 악조건일때는 n제곱을 갖지만 평균적으로는 nlogn이며 병합보다도 빠른 정렬방식
+ *  정렬에서 가장많이 사용되는거
  *  java.Sort 매서드가 이방식을 이용하고 있으며, 방식은 기준점(피벗)을 두고 왼쪽으로는 작은수 오른쪽으로는 큰수를 배열로 만들어 나눈다. 이때 기준숫자는 한쪽배열끝에 넣어둔다.
  *  이 배열들은 또 자신들만에 피벗을 갖고 이를 기준으로 좌작은수 우큰수로 나눠가며 배열이 2가 될때까지 loop를(재귀) 한다 그럼 sort된거다.
 */
-public class Test13 {
+public class Doit_정렬_퀵정렬 {
 	
 	public static void main(String[] args) throws IOException {
 	int arr[] = {7,6,3,2,9,1,8,5,4,10};

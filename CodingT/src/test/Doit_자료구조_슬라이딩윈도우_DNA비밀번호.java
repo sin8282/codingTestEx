@@ -8,16 +8,9 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 /*슬라이딩 윈도우 알고리즘 : 투 포인트랑 비슷 한데 범위를 지정한 다음 범위를 유지한체로 이동하며  문제를 해결하는 알고리즘
-9 8
-CCTGGATTG
-2 0 1 1
-return >> 0
-4 2
-GATA
-1 0 0 1
-return >> 2
+https://www.acmicpc.net/problem/12891
 */
-public class Test6 {
+public class Doit_자료구조_슬라이딩윈도우_DNA비밀번호 {
 	static int myArr[];
 	static int checkArr[];
 	static int check;

@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-// https://school.programmers.co.kr/learn/courses/30/lessons/64064
+// https://school.programmers.co.kr/learn/courses/30/lessons/42839
 /* 여기서부터는 프로그래머스 제출방식에 맞춰서 작성
 
  */

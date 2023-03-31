@@ -15,25 +15,10 @@ import java.util.StringTokenizer;
 /* 깊이 우선탐색 DFS : 노드로 이루어진 리스트에서 가장뿌리가 깊은 쪽 우선으로 검색을해서 데이터를 처리해주고
  * 나머지를 처리하는 개념  FILO
  * 
- * 6 8
-1 2
-2 5
-5 1
-3 4
-4 6
-5 4
-2 4
-2 3
-
-6 5
-1 2
-2 5
-5 1
-3 4
-5 6
  * https://www.youtube.com/watch?v=Y2kHlj7xqfU&t=2011s
+ * https://www.acmicpc.net/problem/11724
 */
-public class Test16 {
+public class Doit_탐색_DFS깊이우선 {
 	public static ArrayList<Integer>[] arr;
 	public static boolean[] visited;
 	

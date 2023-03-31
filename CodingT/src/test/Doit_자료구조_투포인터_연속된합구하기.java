@@ -8,8 +8,9 @@ import java.util.StringTokenizer;
 
 /*투 포인터 : 두개의 포인터를 움직이면서 수식을 처리하는 개념
 https://www.youtube.com/watch?v=ZovjkF2DzIs&t=549s
+https://www.acmicpc.net/problem/2018
 */
-public class Test4 {
+public class Doit_자료구조_투포인터_연속된합구하기 {
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		int NUM = sc.nextInt();

@@ -19,22 +19,17 @@ import java.util.StringTokenizer;
 	 2,3  <<<   5  | 4
 	 2,3,4,  <<< 5
 */
-public class Test14 {
+public class Doit_정렬_병합정렬 {
 	
 	private static int[] sorted = null;
 	
 	public static void main(String[] args) throws IOException {
 	
 		int arr[] = {8,2,6,4,7,3,9,5};
-		merge_sort(arr);
-		
-		System.out.println(Arrays.toString(sorted));
-		
-	}
-
-	private static void merge_sort(int arr[]) {
 		sorted = new int[arr.length];
 		merge_sort(arr, 0,arr.length-1);
+		
+		System.out.println(Arrays.toString(sorted));
 		
 	}
 	

@@ -16,26 +16,9 @@ import java.util.StringTokenizer;
  * add poll peak
  * rear add 되는 위치 front poll되서 나가는 위치
  * https://www.youtube.com/watch?v=vf-i7Q_fN6w&t=772s
- * 
-8
-4
-3
-6
-8
-7
-5
-2
-1
-
-5
-1
-2
-5
-3
-4
-
+ * https://www.acmicpc.net/problem/1874
 */
-public class Test7 {
+public class Doit_자료구조_스택 {
 	
 	public static void main(String[] args) throws IOException {
 		boolean isok = true;
@@ -59,7 +42,7 @@ public class Test7 {
 				bf.append("-\n");
 			}else {
 				int n = stack.pop();
-				if (su<n) {
+				if (su!=n) {
 					System.out.println("NO");
 					isok = false;
 					break;
