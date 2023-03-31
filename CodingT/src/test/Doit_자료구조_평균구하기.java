@@ -1,8 +1,9 @@
 package test;
 
 import java.util.Scanner;
-
-public class Test2 {
+/*https://www.acmicpc.net/problem/1546
+*/
+public class Doit_자료구조_평균구하기 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();

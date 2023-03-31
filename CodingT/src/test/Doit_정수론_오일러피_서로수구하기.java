@@ -14,8 +14,9 @@ import java.util.StringTokenizer;
 
 /* 오일러 피 구하기 : 서로수  자기자신 제외하고 나눠지지않는 수의 갯수 13은 1말고는 아무것도 안나눠지므로 12개의 서로수를 갖는다
  * 자연수 n이 주어졌을 때, GCD(n, k) = 1을 만족하는 자연수 1 ≤ k ≤ n 의 개수를 구하는 프로그램을 작성하시오. 요런문제 이건 그냥 외워야할 듯?
+ * 따로 문제는 안구함 이게 문제에 나올리는 희박할듯...
 */
-public class Test21 {
+public class Doit_정수론_오일러피_서로수구하기 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

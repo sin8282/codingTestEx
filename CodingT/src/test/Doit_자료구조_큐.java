@@ -10,11 +10,13 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-/* 큐문제 카드게임
+/* 
+ * https://www.acmicpc.net/problem/2164
+ * 큐문제 카드게임
 카드맨앞에 있는거는 버리고, 그다음꺼는 맨뒤로 보내라.. 라는 문제
 
 */
-public class Test8 {
+public class Doit_자료구조_큐 {
 	
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);

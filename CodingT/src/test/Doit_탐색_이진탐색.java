@@ -15,9 +15,9 @@ import java.util.StringTokenizer;
 /* 중간에 노드를 정하고 왼쪽이나 오른쪽에 한쪽을 선택해서 계속 절반을 비교해서 찾아가는 방식  찾을려는 값이 작거나 크면 왼쪽이나 오른쪽을 그냥 배제한다.
  * 왼쪽이 작은거 오른쪽이 큰수 이런식으로 정하고 진행하는거기 때문에 꼭 정렬 되어있어야 사용가능하다.
  * nlogn의 시간 복잡도를 갖고있다.
-
+https://www.acmicpc.net/problem/1920
 */
-public class Test18 {
+public class Doit_탐색_이진탐색 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

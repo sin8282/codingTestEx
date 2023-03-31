@@ -9,8 +9,9 @@ import java.util.StringTokenizer;
 
 /*투 포인터 : 두개의 포인터를 움직이면서 수식을 처리하는 개념 거의 정렬을 해야 할 수 있는 문제가 90%가 넘으므로 솔트를 하고 진행해라.
 https://www.youtube.com/watch?v=BA8zkffKc88&t=980s
+https://www.acmicpc.net/problem/1940
 */
-public class Test5 {
+public class Doit_자료구조_투포인터_주몽의명령 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine()); // 갯수

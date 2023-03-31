@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  선택정렬은 버블때문에 잘 안나오기는 하는데 어차피 비슷한원리임 다만 버블처럼 앞뒤 두개를 비교하는게 아닌 
  선택한 인덱스에 전체중에 최솟값이랑 스왑하고 다음 인덱스로 넘어가는 원리 
 */
-public class Test11 {
+public class Doit_정렬_소트정렬 {
 	
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);

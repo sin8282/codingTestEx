@@ -13,32 +13,14 @@ import java.util.StringTokenizer;
 
 /* 절대값구하기
  * 
+ * https://www.acmicpc.net/problem/11286
 https://crazykim2.tistory.com/575
 https://www.youtube.com/watch?v=624DWEXSehw&t=1480s
 Compares its two arguments for order. 
 Returns a negative integer,zero, or a positive integer as the first argument is 
 less than, equal to, or greater than the second.
-18
-1
--1
-0
-0
-0
-1
-1
--1
--1
-2
--2
-0
-0
-0
-0
-0
-0
-0
 */
-public class Test9 {
+public class Doit_자료구조_힙 {
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

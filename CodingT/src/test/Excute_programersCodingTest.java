@@ -68,8 +68,17 @@ public class Excute_programersCodingTest {
 		 * System.out.println("답 :"+ solve2.solution("011"));
 		 */
 		
-		 programers_완전탐색_불량사용자 solve = new programers_완전탐색_불량사용자();
-		 System.out.println("답 :"+ solve.solution(new String[] {"frodo", "fradi", "crodo", "abc123", "frodoc"}, new String[] {"fr*d*", "*rodo", "******", "******"}));
+		/*
+		 * programers_완전탐색_불량사용자 solve = new programers_완전탐색_불량사용자();
+		 * System.out.println("답 :"+ solve.solution(new String[] {"frodo", "fradi",
+		 * "crodo", "abc123", "frodoc"}, new String[] {"fr*d*", "*rodo", "******",
+		 * "******"}));
+		 */
 		 
+		/*
+		 * 연습장 practice = new 연습장(); System.out.println("답 :"+ practice.solution(new
+		 * String[] {"frodo", "fradi", "crodo", "abc123", "frodoc"},new String[]
+		 * {"fr*d*", "abc1**"}));
+		 */
 	}
 }
